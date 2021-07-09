@@ -1,1 +1,10 @@
-Some text for check why
+Canvas:
+createLinearGradient(0, 0, 200, 0);
+createLinearGradient(0, 0, 0, 100);
+createLinearGradient(0, 0, 200, 100);
+// Create a radial gradient
+// The inner circle is at x=110, y=90, with radius=30
+// The outer circle is at x=100, y=100, with radius=70
+createRadialGradient(110,90,30, 100,100,70);
+createRadialGradient(75,50,15,75,50,100);
+
